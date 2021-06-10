@@ -12,7 +12,7 @@
         "license": "MIT",
         "website": "https://pydisaur.glitch.me",
         "demo": "https://pydisaur.glitch.me",
-        "code": "https://some.forge.com/Stylix58/pydisaur"
+        "code": "https://github.com/Stylix58/pydisaur"
     },
     "license": "MIT",
     "maintainer": {
@@ -43,6 +43,15 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
+            },
+            {
+                "name": "discord_token",
+                "type": "string",
+                "ask": {
+                    "en": "You can get it at https://discord.com/developers/applications",
+                    "fr": "Vous pouvez l'obtenir sur ihttps://discord.com/developers/applications"
+                },
+                "example": "937it3ow87i4ery69876wqire"
             }
         ]
     }
