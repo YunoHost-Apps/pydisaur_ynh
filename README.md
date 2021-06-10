@@ -24,7 +24,7 @@ The URL shortener for Discord.
 ## Documentation and resources
 
 * Official app website: https://pydisaur.glitch.me
-* Upstream app code repository: https://some.forge.com/Stylix58/pydisaur
+* Upstream app code repository: https://github.com/Stylix58/pydisaur
 * YunoHost documentation for this app: https://yunohost.org/app_pydisaur
 * Report a bug: https://github.com/YunoHost-Apps/pydisaur_ynh/issues
 

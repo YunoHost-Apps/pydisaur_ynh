@@ -20,7 +20,7 @@ L'URL shortener pour Discord.
 ## Documentations et ressources
 
 * Site officiel de l'app : https://pydisaur.glitch.me
-* Dépôt de code officiel de l'app : https://some.forge.com/Stylix58/pydisaur
+* Dépôt de code officiel de l'app : https://github.com/Stylix58/pydisaur
 * Documentation YunoHost pour cette app : https://yunohost.org/app_pydisaur
 * Signaler un bug : https://github.com/YunoHost-Apps/pydisaur_ynh/issues
 
