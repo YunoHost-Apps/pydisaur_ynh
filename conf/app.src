@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/Stylix58/pydisaur/archive/refs/tags/2.0.0.tar.gz
-SOURCE_SUM=0561e48344d87d6df8fbbb10025f91e0c0aaebcb7b4ad1b2ae62c3d09137cabf
+SOURCE_URL=https://github.com/Stylix58/pydisaur/archive/refs/tags/2.0.1.tar.gz
+SOURCE_SUM=6672843ca4eebaa6bbf4ac713ebe7d0b1a836c6f77760b078a4e6e021a26a7cd
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
