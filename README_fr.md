@@ -19,7 +19,7 @@ L'URL shortener pour Discord.
 
 ## Avertissements / informations importantes
 
-# To do before install this app
+### To do before install this app
 * Check these steps: https://github.com/Stylix58/pydisaur#discord-steps
 
 ## Documentations et ressources
