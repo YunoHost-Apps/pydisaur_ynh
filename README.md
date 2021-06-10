@@ -21,6 +21,11 @@ The URL shortener for Discord.
 
 **Demo:** https://pydisaur.glitch.me
 
+## Disclaimers / important information
+
+# To do before install this app
+* Check these steps: https://github.com/Stylix58/pydisaur#discord-steps
+
 ## Documentation and resources
 
 * Official app website: https://pydisaur.glitch.me
