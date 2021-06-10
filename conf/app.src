@@ -1,7 +1,6 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/Stylix58/pydisaur/archive/refs/tags/2.0.0.tar.gz
+SOURCE_SUM=0561e48344d87d6df8fbbb10025f91e0c0aaebcb7b4ad1b2ae62c3d09137cabf
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
 SOURCE_EXTRACT=true
