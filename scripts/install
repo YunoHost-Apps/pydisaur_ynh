@@ -150,8 +150,8 @@ python3 -m venv "${final_path}/venv"
 	set +o nounset
 	source "${final_path}/venv/bin/activate"
 	set -o nounset
-	ynh_exec_as $app $final_path/venv/bin/pip install --upgrade pip
-	ynh_exec_as $app $final_path/venv/bin/pip install -r "$final_path/requirements.txt"
+	ynh_exec_as $app $final_path/venv/bin/pip install --upgrade --user pip
+	ynh_exec_as $app $final_path/venv/bin/pip install --user -r "$final_path/requirements.txt"
 )
 
 #=================================================
