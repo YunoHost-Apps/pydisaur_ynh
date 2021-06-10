@@ -106,6 +106,17 @@ ynh_script_progression --message="Installing dependencies..." --time --weight=1
 
 ynh_install_app_dependencies $pkg_dependencies
 
+# Setup Python and install his dependencies
+python3 -m venv "${final_path}/venv"
+
+(
+	set +o nounset
+	source "${final_path}/venv/bin/activate"
+	set -o nounset
+	ynh_exec_as $app $final_path/venv/bin/pip install --upgrade pip
+	ynh_exec_as $app $final_path/venv/bin/pip install -r "$final_path/requirements.txt"
+)
+
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
