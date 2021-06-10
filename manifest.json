@@ -48,6 +48,19 @@
                 "name": "discord_token",
                 "type": "string",
                 "ask": {
+                    "en": "Enter your Discord application ID",
+                    "fr": "Entrez votre ID d'application Discord"
+                },
+                "help": {
+                    "en": "You can get it at https://discord.com/developers/applications",
+                    "fr": "Vous pouvez l'obtenir sur https://discord.com/developers/applications"
+                },
+                "example": "332269999912132097"
+            },
+            {
+                "name": "discord_token",
+                "type": "string",
+                "ask": {
                     "en": "Enter your Discord client secret",
                     "fr": "Entrez votre secret de client Discord"
                 },
