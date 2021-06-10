@@ -45,7 +45,7 @@
                 "default": true
             },
             {
-                "name": "discord_token",
+                "name": "discord_id",
                 "type": "string",
                 "ask": {
                     "en": "Enter your Discord application ID",
