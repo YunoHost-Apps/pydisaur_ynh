@@ -36,8 +36,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
-                "default": "/example"
+                "example": "/pydisaur",
+                "default": "/pydisaur"
             },
             {
                 "name": "is_public",
