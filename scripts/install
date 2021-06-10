@@ -107,17 +107,6 @@ ynh_script_progression --message="Installing dependencies..." --time --weight=1
 
 ynh_install_app_dependencies $pkg_dependencies
 
-# Setup Python and install his dependencies
-python3 -m venv "${final_path}/venv"
-
-(
-	set +o nounset
-	source "${final_path}/venv/bin/activate"
-	set -o nounset
-	ynh_exec_as $app $final_path/venv/bin/pip install --upgrade pip
-	ynh_exec_as $app $final_path/venv/bin/pip install -r "$final_path/requirements.txt"
-)
-
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
@@ -148,6 +137,22 @@ ynh_setup_source --dest_dir="$final_path"
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
+
+#=================================================
+# INSTALL PYTHON VENV
+#=================================================
+ynh_script_progression --message="Installing Python venv..." --time --weight=1
+
+# Setup Python and install his dependencies
+python3 -m venv "${final_path}/venv"
+
+(
+	set +o nounset
+	source "${final_path}/venv/bin/activate"
+	set -o nounset
+	ynh_exec_as $app $final_path/venv/bin/pip install --upgrade pip
+	ynh_exec_as $app $final_path/venv/bin/pip install -r "$final_path/requirements.txt"
+)
 
 #=================================================
 # NGINX CONFIGURATION
